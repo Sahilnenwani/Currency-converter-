@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: white;
+    /* background-color: rgb(228, 228, 228); */
+}
+.conatiner{
+    height: 100vh;
+}
+.header{
+    text-align: center;
+    color: aliceblue;
+    margin: 0px 0px 15px 0px;
+    background-color: cornflowerblue;
+}
+.for-flex{
+    display: flex;
+
+    
+}
+.currenyinput{
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ margin: 15px 0px;
+ width:90%;
+}
+
+#euro , #pkr , #usd , #sr{
+    
+    margin-top: 40px;
+    border: none;
+    padding: 20px 20px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    font-size: 15px;
+    width: 430px;
+    box-shadow: 0px 1px 5px rgb(97, 97, 97);
+    
+}  
+
+#euro{
+background-color: lightgreen;
+color: white;
+}
+#pkr {
+background-color: lightcoral;
+color: white;
+}
+#usd{
+background-color: lightsteelblue;
+color: white;
+}
+#sr{
+background-color:lightblue;
+color: white;
+}
+.logos{
+    /* margin-top: 20px; */
+    margin-left: -450px;;
+    
+}
+.logos p{
+    color: aliceblue;
+        
+ text-align: center;
+}
+.identifier{
+    margin-top: 60px;
+    background-color:lightgreen ;
+    width: 40PX;
+    height: 40px;
+    border-radius: 20PX;
+    
+}
+.identifier1{
+    margin-top: 60px;
+    background-color:lightcoral ;
+    width: 40PX;
+    height: 40px;
+    border-radius: 20PX;
+}
+.identifier2{
+    margin-top: 60px;
+    background-color:lightsteelblue;
+    width: 40PX;
+    height: 40px;
+    border-radius: 20PX;
+}
+.identifier3{
+    margin-top: 60px;
+    background-color:lightblue ;
+    width: 40PX;
+    height: 40px;
+    border-radius: 20PX;
+}
+
+.flex-all-center{
+   
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+footer{
+    height: 12vh;
+    background-color:cornflowerblue;
+    color: white;
+    font-family: 'Lato', sans-serif;
+}
